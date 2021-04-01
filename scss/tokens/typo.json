@@ -1,0 +1,487 @@
+{
+	"fontFamilies": {
+		"font-tisco-ad": "TISCO AD",
+		"font-tisco-text": "TISCO Text"
+	},
+	"lineHeights": {
+		"17": {
+			"value": 17
+		},
+		"20": {
+			"value": 20
+		},
+		"24": {
+			"value": 24
+		},
+		"27": {
+			"value": 27
+		},
+		"32": {
+			"value": 32
+		},
+		"36": {
+			"value": 36
+		},
+		"45": {
+			"value": 45
+		},
+		"60": {
+			"value": 60
+		},
+		"72": {
+			"value": 72
+		},
+		"78": {
+			"value": 78
+		}
+	},
+	"fontWeights": {
+		"font-tisco-ad-Bold": {
+			"value": "Bold"
+		},
+		"font-tisco-ad-Regular": {
+			"value": "Regular"
+		},
+		"font-tisco-ad-Bold-Italic": {
+			"value": "Italic"
+		},
+		"font-tisco-text-Regular": {
+			"value": "Regular"
+		},
+		"font-tisco-text-Bold": {
+			"value": "Bold"
+		}
+	},
+	"fontSizes": {
+		"11": {
+			"value": 11
+		},
+		"13": {
+			"value": 13
+		},
+		"16": {
+			"value": 16
+		},
+		"18": {
+			"value": 18
+		},
+		"20": {
+			"value": 20
+		},
+		"24": {
+			"value": 24
+		},
+		"30": {
+			"value": 30
+		},
+		"40": {
+			"value": 40
+		},
+		"48": {
+			"value": 48
+		},
+		"52": {
+			"value": 52
+		}
+	},
+	"typography": {
+		"Heading": {
+			"H1-Bold-30": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.45",
+					"fontSize": "$fontSizes.30",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "Heading 1"
+			},
+			"H2-Bold-24": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.36",
+					"fontSize": "$fontSizes.24",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "Heading 2"
+			},
+			"H6-Bold-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "Heading 6"
+			},
+			"H4-Bold-18": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.27",
+					"fontSize": "$fontSizes.18",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "Heading 4"
+			},
+			"H3-Bold-20": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.32",
+					"fontSize": "$fontSizes.20",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "Heading 3"
+			},
+			"H5-Bold-16": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.24",
+					"fontSize": "$fontSizes.16",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "Heading 5"
+			}
+		},
+		"Body": {
+			"Tisco-AD": {
+				"Default-Regular-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-ad",
+						"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO AD Regular 16px"
+				},
+				"Bold-Underline-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-ad",
+						"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO AD Bold 16px Underline"
+				},
+				"Bold-Italic-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-ad",
+						"fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO AD Bold Italic 16px"
+				},
+				"Bold-Italic-Underline-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-ad",
+						"fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO AD Bold Italic 16px Underline"
+				},
+				"Bold-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-ad",
+						"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO AD Bold 16px"
+				},
+				"Underline-Regular-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-ad",
+						"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO AD Regular 16px Underline"
+				}
+			},
+			"TISCO-Text": {
+				"Default-Regular-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-text",
+						"fontWeight": "$fontWeights.font-tisco-text-Regular",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO Text Regular 16px"
+				},
+				"Underline-Regular-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-text",
+						"fontWeight": "$fontWeights.font-tisco-text-Regular",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO Text Regular 16px Underline"
+				},
+				"Bold-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-text",
+						"fontWeight": "$fontWeights.font-tisco-text-Bold",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO Text Bold 16px"
+				},
+				"Bold-Underline-16": {
+					"value": {
+						"fontFamily": "$fontFamilies.font-tisco-text",
+						"fontWeight": "$fontWeights.font-tisco-text-Bold",
+						"lineHeight": "$lineHeights.24",
+						"fontSize": "$fontSizes.16",
+						"letterSpacing": "$letterSpacing.0",
+						"paragraphSpacing": "$paragraphSpacing.0"
+					},
+					"description": "TISCO Text Bold 16px Underline"
+				}
+			}
+		},
+		"Label": {
+			"Default-Regular-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Regular 13px"
+			},
+			"Underline-Regular-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Regular 13px Underline"
+			},
+			"Action-CTA-Regular-16": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.24",
+					"fontSize": "$fontSizes.16",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Regular 16px"
+			},
+			"Helper-Optional-Regular-11": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Regular 11px"
+			},
+			"Bold-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Bold 13px"
+			},
+			"Bold-Underline-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Bold 13px Underline"
+			},
+			"Bold-Italic-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Bold 13px Italic"
+			},
+			"Bold-Italic-Underline-13": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.20",
+					"fontSize": "$fontSizes.13",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "TISCO AD Bold Italic 13px Underline"
+			}
+		},
+		"Footnote": {
+			"Default": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$footnote-default"
+			},
+			"Underline": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$footnote-underline"
+			},
+			"Bold": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$footnote-bold"
+			},
+			"Bold-Italic": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$footnote-bold-italic"
+			},
+			"Bold-Underline": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$footnote-bold-underline"
+			},
+			"Bold-Italic-Underline": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+					"lineHeight": "$lineHeights.17",
+					"fontSize": "$fontSizes.11",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$footnote-bold-italic-underline"
+			}
+		},
+		"Adver or Display Title": {
+			"Advert": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.72",
+					"fontSize": "$fontSizes.48",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$display-title-advert "
+			},
+			"X-Large": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.60",
+					"fontSize": "$fontSizes.40",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$display-title-x-large"
+			},
+			"2X-Large": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Regular",
+					"lineHeight": "$lineHeights.78",
+					"fontSize": "$fontSizes.52",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$display_title_2x_large"
+			},
+			"Advert-Bold": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold",
+					"lineHeight": "$lineHeights.72",
+					"fontSize": "$fontSizes.48",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				}
+			},
+			"Advert-Italic": {
+				"value": {
+					"fontFamily": "$fontFamilies.font-tisco-ad",
+					"fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+					"lineHeight": "$lineHeights.72",
+					"fontSize": "$fontSizes.48",
+					"letterSpacing": "$letterSpacing.0",
+					"paragraphSpacing": "$paragraphSpacing.0"
+				},
+				"description": "$display_title_advert_italic"
+			}
+		}
+	}
+}
