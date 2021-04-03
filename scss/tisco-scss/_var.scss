@@ -1,9 +1,18 @@
-
 // Toggle global options
-$enable-gradients: true;
-$enable-shadows: true;
+// $enable-gradients: false;
+// $enable-shadows: true;
 
 // Customize some defaults
-$body-color: #2d2d2d;
-$body-bg: #f5f5f5;
-$border-radius: .4rem;
+$blue   : get('colors.Base.Primary-brand', $color_token) !default;
+$red    : get('colors.Stateful.Danger', $color_token) !default;
+$yellow : get('colors.Stateful.Warning', $color_token) !default;
+$green  : get('colors.Stateful.Success', $color_token) !default;
+
+$primary:       $blue !default;
+$secondary:     get('colors.Base.Secondary-brand', $color_token) !default;
+$success:       $green !default;
+$info:          get('colors.Stateful.Primary-Background', $color_token) !default;
+$warning:       $yellow !default;
+$danger:        $red !default;
+$light:         get('colors.Base.Muted-Background', $color_token) !default;
+$dark:          get('colors.Base.Grey-Color', $color_token) !default;
