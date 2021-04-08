@@ -23,8 +23,8 @@
     "color:tokens": "npx json-to-scss scss/tokens/color-space.json scss/tisco-scss/token/_color_token.scss --k='sq'",
     "typo:tokens": "npx json-to-scss scss/tokens/typo.json scss/tisco-scss/token/_typo_token.scss --k='sq'",
     "server": "sirv --port 3000",
-    "brows": "npx browser-sync start --proxy 'localhost:3000' --files '*.scss,*.html'",
-    "start": "npm-run-all --parallel watch server brows",
+    "brows": "npx browser-sync start -s --files 'scss/*' 'assets/css/tisco.css' '*.html'",
+    "start": "npm-run-all --parallel watch brows",
     "watch": "nodemon -e html,scss -x \"npm run css\"",
     "test": "npm run css-lint && npm run css"
   },

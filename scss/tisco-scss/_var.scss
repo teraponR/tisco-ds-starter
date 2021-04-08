@@ -1,18 +1,33 @@
 // Toggle global options
-// $enable-gradients: false;
+$enable-gradients: false;
 // $enable-shadows: true;
 
-// Customize some defaults
-$blue   : get('colors.Base.Primary-brand', $color_token) !default;
-$red    : get('colors.Stateful.Danger', $color_token) !default;
-$yellow : get('colors.Stateful.Warning', $color_token) !default;
-$green  : get('colors.Stateful.Success', $color_token) !default;
+$font-family-base       : get('fontFamilies.font-tisco-ad', $font_token) !default;
+// $font-size-base      : 
+// $font-weight-base    : 
+// $line-height-base    : 
+$body-color             : get('colors.Base.Text', $color_token) !default;
 
-$primary:       $blue !default;
-$secondary:     get('colors.Base.Secondary-brand', $color_token) !default;
-$success:       $green !default;
-$info:          get('colors.Stateful.Primary-Background', $color_token) !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         get('colors.Base.Muted-Background', $color_token) !default;
-$dark:          get('colors.Base.Grey-Color', $color_token) !default;
+// Customize some defaults
+$blue                   : get('colors.Base.Primary-brand', $color_token) !default;
+$red                    : get('colors.Stateful.Danger', $color_token) !default;
+$yellow                 : get('colors.Stateful.Warning', $color_token) !default;
+$green                  : get('colors.Stateful.Success', $color_token) !default;
+
+$primary                : $blue !default;
+$secondary              : get('colors.Base.Secondary-brand', $color_token) !default;
+$success                : $green !default;
+$info                   : get('colors.Stateful.Primary-Background', $color_token) !default;
+$warning                : $yellow !default;
+$danger                 : $red !default;
+$light                  : get('colors.Base.Muted-Background', $color_token) !default;
+$dark                   : get('colors.Base.Grey-Color', $color_token) !default;
+
+$link-active            : get('colors.Action.Link-Active', $color_token) !default;
+
+// @include button-variant($primary, $primary, $hover-background: $secondary);
+// $btn-padding-y :  
+// $btn-padding-x :  
+// $btn-font-size :  
+// $btn-line-height :  
+// $btn-border-radius : 

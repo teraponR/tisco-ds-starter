@@ -1,11 +1,11 @@
 //Set Default Token
 $token: () !default;
 
+@import 'token/color_token';
+@import 'token/typo_token';
 // @import 'token/border';
 // @import 'token/breakpoint';
 // @import 'token/button';
-@import 'token/color_token';
 // @import 'token/container';
-// @import 'token/font';
 // @import 'token/heading';
 // @import 'token/spacing';

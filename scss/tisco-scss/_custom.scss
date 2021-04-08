@@ -1,0 +1,19 @@
+// Custom variant
+// Buttons
+// @include button-variant($background, $border, $hover-background: $secondary, $hover-border: darken($border, 10%), $active-background: darken($background, 10%), $active-border: darken($border, 12.5%)) 
+
+@each $color, $value in $theme-colors {
+    .btn-#{$color} {
+        @include button-variant($value, $value, $hover-background: $secondary, $hover-border: $secondary, $active-background: $link-active, $active-border: $link-active);
+        @include hover() {
+            color: $white;
+        }
+        // Disabled comes first so active can properly restyle
+        &.disabled,
+        &:disabled {
+            color: $gray-500;
+            background-color: $gray-100;
+            border-color: $gray-500;
+        }        
+    }
+}

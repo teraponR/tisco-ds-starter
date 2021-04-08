@@ -31,7 +31,6 @@
 
 @import 'scss/tisco-scss/font';
 @import "scss/tisco-scss/var"; // Require
-// @import 'scss/tisco-scss/base';
 
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
@@ -72,3 +71,5 @@
 @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
 @import "bootstrap/scss/print";
+
+@import "scss/tisco-scss/custom"; // Custom variant
