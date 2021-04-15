@@ -6,7 +6,7 @@
 
 <p align="center">Create new Bootstrap-powered npm projects in no time.</p>
 
-## About
+## About koko
 
 `bootstrap-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v4 with plans to update for v5.
 
